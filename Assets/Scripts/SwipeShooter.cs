@@ -18,7 +18,7 @@ public class SwipeShooter : MonoBehaviour
     [Header("Power Tuning")]
     public float powerScale = 0.012f;
     public float minPower = 7f;
-    public float maxPower = 18f;
+    public float maxPower = 14f;
 
     [Header("Flight Feel")]
     public float extraLift = 0.08f; // small lift so shots aren’t perfectly flat
@@ -102,15 +102,41 @@ public class SwipeShooter : MonoBehaviour
         if (t <= 0f) return;
 
         Vector3 hit = ray.origin + ray.direction * t;
+        float horizontalSensitivity = 2.0f; // try 1.8–2.5
+        hit.x = goalCenter.position.x + (hit.x - goalCenter.position.x) * horizontalSensitivity;
 
         // Clamp hit point inside goal rectangle (with margin)
         float minX = goalCenter.position.x - goalHalfWidth + aimMargin;
         float maxX = goalCenter.position.x + goalHalfWidth - aimMargin;
-        float minY = goalCenter.position.y + aimMargin;
+        float minY = 0.15f; 
         float maxY = goalCenter.position.y + goalHeight - aimMargin;
 
-        hit.x = Mathf.Clamp(hit.x, minX, maxX);
-        hit.y = Mathf.Clamp(hit.y, minY, maxY);
+        // GOAL bounds (actual posts + bar)
+        float goalMinX = goalCenter.position.x - goalHalfWidth + aimMargin;
+        float goalMaxX = goalCenter.position.x + goalHalfWidth - aimMargin;
+        float goalMinY = 0.15f; // ground-ish
+        float goalMaxY = goalCenter.position.y + goalHeight - aimMargin;
+
+        // WIDER aim bounds (allows misses)
+        float missMarginX = 2.0f;  // meters outside the post allowed
+        float missMarginY = 0.8f;  // meters above the bar allowed
+
+        float aimMinX = goalMinX - missMarginX;
+        float aimMaxX = goalMaxX + missMarginX;
+        float aimMinY = goalMinY;
+        float aimMaxY = goalMaxY + missMarginY;
+
+        // Soft clamp to prevent insane values, but still allow misses
+        hit.x = Mathf.Clamp(hit.x, aimMinX, aimMaxX);
+        hit.y = Mathf.Clamp(hit.y, aimMinY, aimMaxY);
+
+        // Determine if the shot is actually on target
+        bool onTarget =
+            hit.x >= goalMinX && hit.x <= goalMaxX &&
+            hit.y >= goalMinY && hit.y <= goalMaxY;
+
+        // Optional: store this so MatchController can count "On Target" stats
+        // Debug.Log(onTarget ? "On target" : "Off target");
         hit.z = planeZ;
 
         goalkeeper.ReactToShot(hit);

@@ -43,7 +43,7 @@ public class MatchController : MonoBehaviour
             playerBScore++;
 
         UpdateUI();
-        EndTurn();
+        StartCoroutine(DelayedEndTurn(1.0f));
     }
 
     private System.Collections.IEnumerator DelayedEndTurn(float delay)
@@ -56,7 +56,7 @@ public class MatchController : MonoBehaviour
     {
         if (!turnActive) return;
         turnActive = false;
-        StartCoroutine(DelayedEndTurn(1.0f)); // wait 1 second
+        StartCoroutine(DelayedEndTurn(1.0f));
     }
 
     void UpdateUI()
