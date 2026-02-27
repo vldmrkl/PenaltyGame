@@ -7,6 +7,8 @@ public class SwipeShooter : MonoBehaviour
     public Transform ballSpawn;
     public Transform goalCenter;   // center of goal mouth (e.g. 0,1.2,18)
     public Camera mainCam;
+    public GoalkeeperController goalkeeper;
+    public GoalAndSaveDetector detector;
 
     [Header("Goal Size (meters)")]
     public float goalHalfWidth = 3.66f;   // 7.32m / 2
@@ -111,6 +113,8 @@ public class SwipeShooter : MonoBehaviour
         hit.y = Mathf.Clamp(hit.y, minY, maxY);
         hit.z = planeZ;
 
+        goalkeeper.ReactToShot(hit);
+
         // Direction from ball to aimed point
         Vector3 dir = (hit - ballRb.position).normalized;
 
@@ -121,6 +125,7 @@ public class SwipeShooter : MonoBehaviour
         ballRb.angularVelocity = Vector3.zero;
 
         ballRb.AddForce(dir * power, ForceMode.Impulse);
+        detector.NotifyShotFired();
 
         shotLocked = true;
     }
