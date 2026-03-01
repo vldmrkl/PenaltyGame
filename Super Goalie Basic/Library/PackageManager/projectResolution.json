@@ -1,0 +1,401 @@
+{
+  "context": {
+    "projectPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Packages",
+    "unityVersion": "6000.3.10f1"
+  },
+  "inputs": [
+    "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Packages/manifest.json",
+    "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Packages/packages-lock.json",
+    "/Applications/Unity/Hub/Editor/6000.3.10f1/Unity.app/Contents/Resources/PackageManager/BuiltInPackages/BuiltInPackagesCombined.sha1"
+  ],
+  "outputs": {
+    "com.unity.ads@4.16.4": {
+      "name": "com.unity.ads",
+      "displayName": "Advertisement Legacy",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.ads@e89225828059",
+      "fingerprint": "e8922582805922405e97351c15d313c7a56f561d",
+      "editorCompatibility": "2021.3.0a1",
+      "version": "4.16.4",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.analytics@3.8.2": {
+      "name": "com.unity.analytics",
+      "displayName": "Analytics Library",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.analytics@c9d14a6bdec6",
+      "fingerprint": "c9d14a6bdec6bc414ff1cab77dd82647a9fa1334",
+      "editorCompatibility": "2019.3.0a1",
+      "version": "3.8.2",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.collab-proxy@2.11.3": {
+      "name": "com.unity.collab-proxy",
+      "displayName": "Unity Version Control",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.collab-proxy@e566cd3e7623",
+      "fingerprint": "e566cd3e762373591f6828e86f2018eed8021356",
+      "editorCompatibility": "2021.3.0f1",
+      "version": "2.11.3",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.multiplayer.center@1.0.1": {
+      "name": "com.unity.multiplayer.center",
+      "displayName": "Multiplayer Center",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.multiplayer.center@f01f4ba8d00a",
+      "fingerprint": "f01f4ba8d00afa4e957bddf0fcd1612a564401ff",
+      "editorCompatibility": "6000.0.0a1",
+      "version": "1.0.1",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.purchasing@4.14.2": {
+      "name": "com.unity.purchasing",
+      "displayName": "In App Purchasing",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.purchasing@039fd41c6e81",
+      "fingerprint": "039fd41c6e81616dbfb87051ec2b10ff2fc91b79",
+      "editorCompatibility": "2020.3.0a1",
+      "version": "4.14.2",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.timeline@1.8.10": {
+      "name": "com.unity.timeline",
+      "displayName": "Timeline",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.timeline@7f8b2fb101b6",
+      "fingerprint": "7f8b2fb101b6053cc7472330401e94ff0c17b204",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "1.8.10",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.modules.accessibility@1.0.0": {
+      "name": "com.unity.modules.accessibility",
+      "displayName": "Accessibility",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.accessibility",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.adaptiveperformance@1.0.0": {
+      "name": "com.unity.modules.adaptiveperformance",
+      "displayName": "Adaptive Performance",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.adaptiveperformance",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.ai@1.0.0": {
+      "name": "com.unity.modules.ai",
+      "displayName": "AI",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.ai",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.androidjni@1.0.0": {
+      "name": "com.unity.modules.androidjni",
+      "displayName": "Android JNI",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.androidjni",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.animation@1.0.0": {
+      "name": "com.unity.modules.animation",
+      "displayName": "Animation",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.animation",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.assetbundle@1.0.0": {
+      "name": "com.unity.modules.assetbundle",
+      "displayName": "Asset Bundle",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.assetbundle",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.audio@1.0.0": {
+      "name": "com.unity.modules.audio",
+      "displayName": "Audio",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.audio",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.cloth@1.0.0": {
+      "name": "com.unity.modules.cloth",
+      "displayName": "Cloth",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.cloth",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.director@1.0.0": {
+      "name": "com.unity.modules.director",
+      "displayName": "Director",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.director",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.imageconversion@1.0.0": {
+      "name": "com.unity.modules.imageconversion",
+      "displayName": "Image Conversion",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.imageconversion",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.imgui@1.0.0": {
+      "name": "com.unity.modules.imgui",
+      "displayName": "IMGUI",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.imgui",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.jsonserialize@1.0.0": {
+      "name": "com.unity.modules.jsonserialize",
+      "displayName": "JSONSerialize",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.jsonserialize",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.particlesystem@1.0.0": {
+      "name": "com.unity.modules.particlesystem",
+      "displayName": "Particle System",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.particlesystem",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.physics@1.0.0": {
+      "name": "com.unity.modules.physics",
+      "displayName": "Physics",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.physics",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.physics2d@1.0.0": {
+      "name": "com.unity.modules.physics2d",
+      "displayName": "Physics 2D",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.physics2d",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.screencapture@1.0.0": {
+      "name": "com.unity.modules.screencapture",
+      "displayName": "Screen Capture",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.screencapture",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.terrain@1.0.0": {
+      "name": "com.unity.modules.terrain",
+      "displayName": "Terrain",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.terrain",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.terrainphysics@1.0.0": {
+      "name": "com.unity.modules.terrainphysics",
+      "displayName": "Terrain Physics",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.terrainphysics",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.tilemap@1.0.0": {
+      "name": "com.unity.modules.tilemap",
+      "displayName": "Tilemap",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.tilemap",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.ui@1.0.0": {
+      "name": "com.unity.modules.ui",
+      "displayName": "UI",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.ui",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.uielements@1.0.0": {
+      "name": "com.unity.modules.uielements",
+      "displayName": "UIElements",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.uielements",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.umbra@1.0.0": {
+      "name": "com.unity.modules.umbra",
+      "displayName": "Umbra",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.umbra",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.unityanalytics@1.0.0": {
+      "name": "com.unity.modules.unityanalytics",
+      "displayName": "Unity Analytics",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.unityanalytics",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.unitywebrequest@1.0.0": {
+      "name": "com.unity.modules.unitywebrequest",
+      "displayName": "Unity Web Request",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.unitywebrequest",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.unitywebrequestassetbundle@1.0.0": {
+      "name": "com.unity.modules.unitywebrequestassetbundle",
+      "displayName": "Unity Web Request Asset Bundle",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.unitywebrequestaudio@1.0.0": {
+      "name": "com.unity.modules.unitywebrequestaudio",
+      "displayName": "Unity Web Request Audio",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.unitywebrequestaudio",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.unitywebrequesttexture@1.0.0": {
+      "name": "com.unity.modules.unitywebrequesttexture",
+      "displayName": "Unity Web Request Texture",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.unitywebrequesttexture",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.unitywebrequestwww@1.0.0": {
+      "name": "com.unity.modules.unitywebrequestwww",
+      "displayName": "Unity Web Request WWW",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.unitywebrequestwww",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.vectorgraphics@1.0.0": {
+      "name": "com.unity.modules.vectorgraphics",
+      "displayName": "Vector Graphics",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.vectorgraphics",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.vehicles@1.0.0": {
+      "name": "com.unity.modules.vehicles",
+      "displayName": "Vehicles",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.vehicles",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.video@1.0.0": {
+      "name": "com.unity.modules.video",
+      "displayName": "Video",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.video",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.vr@1.0.0": {
+      "name": "com.unity.modules.vr",
+      "displayName": "VR",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.vr",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.wind@1.0.0": {
+      "name": "com.unity.modules.wind",
+      "displayName": "Wind",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.wind",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.xr@1.0.0": {
+      "name": "com.unity.modules.xr",
+      "displayName": "XR",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.xr",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.subsystems@1.0.0": {
+      "name": "com.unity.modules.subsystems",
+      "displayName": "Subsystems",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.subsystems",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.modules.hierarchycore@1.0.0": {
+      "name": "com.unity.modules.hierarchycore",
+      "displayName": "Hierarchy Core",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.modules.hierarchycore",
+      "version": "1.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.ugui@2.0.0": {
+      "name": "com.unity.ugui",
+      "displayName": "uGUI",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.ugui@bb329a87fcdc",
+      "fingerprint": "bb329a87fcdc5d55e815f3d804764d676674047e",
+      "editorCompatibility": "2019.2.0a1",
+      "version": "2.0.0",
+      "source": "builtin",
+      "testable": false
+    },
+    "com.unity.services.core@1.16.0": {
+      "name": "com.unity.services.core",
+      "displayName": "Services Core",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.services.core@8ba50f624741",
+      "fingerprint": "8ba50f62474188022a50a78f721a5d30dfba0c3e",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "1.16.0",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.services.analytics@6.2.0": {
+      "name": "com.unity.services.analytics",
+      "displayName": "Analytics",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.services.analytics@b6335889ba61",
+      "fingerprint": "b6335889ba612cb6b1017ce6c083f8b9678f8e9a",
+      "editorCompatibility": "2022.3.0a1",
+      "version": "6.2.0",
+      "source": "registry",
+      "testable": false
+    },
+    "com.unity.nuget.newtonsoft-json@3.2.2": {
+      "name": "com.unity.nuget.newtonsoft-json",
+      "displayName": "Newtonsoft Json",
+      "resolvedPath": "/Users/volodymyr/PenaltyGame/Super Goalie Basic/Library/PackageCache/com.unity.nuget.newtonsoft-json@4dfd81071c64",
+      "fingerprint": "4dfd81071c6475bb9c114f920bfb4e3fc5e28c6a",
+      "editorCompatibility": "2018.4.0a1",
+      "version": "3.2.2",
+      "source": "registry",
+      "testable": false
+    }
+  }
+}
